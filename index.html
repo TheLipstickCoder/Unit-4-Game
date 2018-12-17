@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>Javascript is hard.</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div>
+		<h1>Crystal Collector</h1>
+	</div>
+	<div class="instructions">
+		<em><h3>Instructions</h3></em>
+			<p>You will be given a random number at the start of the game.<p>
+			<p>There are four crystals below.</p>
+			<p>By clicking on a crystal, you will add a specific amount of points to your total score. You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number. Each time when the game starts, the game will change the values of each crystal.</p>
+
+	</div>
+	<div class="numberToMatch">
+		<em><h4>Random Number:
+			<span id= "compNum"></span>
+		</h4></em>
+	</div>
+	<div class="winsAndLosses">
+		<h3>Wins:
+			<span id= "wins"></span>
+			</br>
+			Losses: 
+			<span id= "losses"></span>
+		</h3>
+	</div>
+	<span>
+		<img src="assets/images/blue.png" class="crysPic" id="blue" alt="Blue Gem">
+		<img src="assets/images/green.png" class=crysPic id="green" alt="Green Gem">
+		<img src="assets/images/red.png" class=crysPic id= "red" alt="Red Gem">
+		<img src="assets/images/yellow.png" class=crysPic id= "yellow" alt="Yellow Gem">
+	</span>
+	<div class="score">
+		<h2>Your score is:
+			<span id="gameScore"></span>
+		</h2>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

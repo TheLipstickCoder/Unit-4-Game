@@ -17,13 +17,13 @@ $(document).ready(function(){
 
     function clearGame(){
         ranNum=Math.floor(Math.random()*101+19);
-        $('#compNum').text(Random);
+        $('#compNum').text(ranNum);
         crys1= Math.floor(Math.random()*12);
         crys2= Math.floor(Math.random()*12);
         crys3= Math.floor(Math.random()*12);
         crys4= Math.floor(Math.random()*12);
-        userTotal= 0;
-        $('#gameScore').text(score);
+        playerTotal= 0;
+        $('#gameScore').text(playerTotal);
     } 
     
     //win or loss functions, both clear all variables and restart game
